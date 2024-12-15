@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  overflow: hidden;
+  cursor: url("/assets/icons/Embossed\ Gray\ Scale.cur"), auto;
+
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.mainContent {
+  background-color: rgb(50, 74, 94);
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.background-image {
+  background-image: url("/assets/images/pngwing.com.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80%;
+}
+.taskbar-container {
+  position: absolute;
+  bottom: 0;
+  background-color: #c0c0c0;
+  width: 100%;
+  height: 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2px 0 2px;
+}
+.start-btn {
+  background-color: #c0c0c0;
+  width: 95px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  font-size: 10px;
+  font-family: "Press Start 2P", system-ui;
+}
+.start-btn .logo-start {
+  background-image: url("/assets/images/pngwing.com.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 50%;
+}
+#time-display {
+  margin-right: 5px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  justify-content: center;
+}
+.icon:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.icon-container {
+  position: absolute;
+  top: 20%;
+
+  width: 10%;
+  height: 70%;
+  display: flex;
+  gap: 15px;
+  align-content: flex-start;
+  flex-direction: column-reverse;
+  justify-content: flex-start;
+}
+.icon img {
+  width: 80px;
+  height: 80px;
+}
+#fb-logo{
+  width: 45px;
+  height: 35px;
+}
+
+.icon .icon-label {
+  font-size: 10px;
+  color: white;
+}
+
+.window {
+  width: 80%;
+  height: 90%;
+  position: absolute;
+  border: 2px solid white;
+  box-shadow: 2px 2px 0 #000000, 4px 4px 0 #000;
+  background-color: white;
+  display: none;
+  transform: translate(-50%, -50%);
+  top: 47%;
+  left: 50%;
+}
+.title-bar {
+  background-color: #000080;
+  color: #fff;
+  padding: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title-bar-text {
+  padding-left: 5px;
+}
+.title-bar-controls {
+  display: flex;
+}
+.title-bar-controls button {
+  width: 16px;
+  height: 16px;
+  margin: 0 1px;
+  background-color: #c0c0c0;
+  border: 1px solid #000;
+  font-size: 10px;
+  line-height: 0;
+  cursor: pointer;
+}
+.content {
+  position: relative;
+}

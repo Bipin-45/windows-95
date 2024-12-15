@@ -1,0 +1,26 @@
+document.addEventListener("DOMContentLoaded", function () {
+  const icons = document.querySelectorAll(".icon");
+  icons.forEach(icon => {
+    icon.addEventListener("click", function () {
+  const id = this.id.trim();
+  const windowId = `${id}-window`;
+  const windowElement = document.getElementById(windowId);
+  if (windowElement) {
+    windowElement.style.display = "block";
+    bringToFront(windowElement);
+  }
+    });
+  });
+
+  const windows = document.querySelectorAll(".window");
+  windows.forEach(window => {
+    window.addEventListener("click", function () {
+  bringToFront(this);
+    });
+  });
+
+  function bringToFront(element) {
+    windows.forEach(win => win.style.zIndex = "0"); // Reset zIndex for all windows
+    element.style.zIndex = "1000"; // Bring the specified window to the top
+  }
+});

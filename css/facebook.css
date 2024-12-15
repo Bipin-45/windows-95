@@ -1,0 +1,233 @@
+
+.facebook-window {
+  position: absolute;
+  top: 9px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 100%;
+  height: 90%;
+  z-index: 9999;
+}
+#facebook-window {
+  display: none;
+}
+.invert{
+  filter: invert(1);
+}
+.facebook-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #515bd4;
+  padding: 20px;
+}
+.facebook-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.facebook-search input {
+  height: 26px;
+  font-family: "Press Start 2P";
+  padding-left: 12px;
+}
+
+.search-facebook-ico {
+  width: 27px;
+
+  transform: scale(1.5);
+}
+.search-facebook-ico:hover {
+  transform: scale(1.7);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.icons-facebook {
+  transform: scale(2.3);
+  transform-origin: center;
+  height: 20px;
+}
+.icons-facebook:hover {
+  transform: scale(2.5);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.facebook-chat {
+  position: absolute;
+  height: 430px;
+  width: 37%;
+  top: 80px;
+  right: 13px;
+  border: 2px solid white;
+  box-shadow: 2px 2px 0 #000000, 4px 4px 0 #000;
+}
+.facebook-chat-header {
+  background-color: #515bd4;
+  color: white;
+  padding: 5px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.facebook-chat-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.chat-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+.chat-item:hover {
+  cursor: pointer;
+}
+
+.chat-item:last-child {
+  border-bottom: none;
+}
+
+.chat-profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat-details {
+  flex-grow: 1;
+}
+
+.chat-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.chat-message {
+  color: #555;
+}
+
+.unread-messages {
+  background-color: #ff3b30;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+.chat-item:hover {
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+.facebook-post {
+  position: absolute;
+  height: 430px;
+  width: 59%;
+  top: 80px;
+  left: 13px;
+  border: 2px solid white;
+  box-shadow: 2px 2px 0 #000000, 4px 4px 0 #000;
+}
+.post {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 6px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-height: 410px;
+  overflow-x: auto;
+}
+.post::-webkit-scrollbar {
+  display: none; 
+}
+.post-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+
+.post-profile-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.post-header:hover{
+  cursor: pointer;
+}
+
+.post-user-details {
+  display: flex;
+  flex-direction: column;
+}
+.post-username {
+  font-weight: bold;
+}
+
+
+
+
+.post-location {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.post-image {
+  width: 98%;
+  height: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.post-action-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.share-ico{
+  transform: scale(1.5);
+}
+
+.post-likes {
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.post-caption {
+  padding: 0 10px;
+}
+
+.post-caption-username {
+  font-weight: bold;
+}
+
+.post-comments {
+  padding: 10px;
+}
+
+.comment {
+  margin-bottom: 5px;
+}
+
+.comment-username {
+  font-weight: bold;
+  margin-right: 5px;
+}

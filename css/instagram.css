@@ -1,0 +1,226 @@
+.instagram-window {
+  position: absolute;
+  top: 9px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 100%;
+  height: 90%;
+  /* display: none; */
+  z-index: 9999;
+}
+#instagram-window {
+  display: none;
+}
+.insta-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(45deg, #f5d429, #dd2a5c, #8134af, #515bd4);
+  padding: 20px;
+}
+.insta-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.insta-search input {
+  height: 26px;
+  font-family: "Press Start 2P";
+  padding-left: 12px;
+}
+
+.search-insta-ico {
+  width: 27px;
+
+  transform: scale(1.5);
+}
+.search-insta-ico:hover {
+  transform: scale(1.7);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.icons-insta {
+  transform: scale(2.3);
+  transform-origin: center;
+  height: 20px;
+}
+.icons-insta:hover {
+  transform: scale(2.5);
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+.insta-chat {
+  position: absolute;
+  height: 430px;
+  width: 41%;
+  top: 80px;
+  left: 13px;
+  border: 2px solid white;
+  box-shadow: 2px 2px 0 #000000, 4px 4px 0 #000;
+}
+.insta-chat-header {
+  background: linear-gradient(45deg, #f5d429, #dd2a5c, #8134af, #515bd4);
+  color: white;
+  padding: 5px;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.insta-chat-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.chat-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+}
+.chat-item:hover {
+  cursor: pointer;
+}
+
+.chat-item:last-child {
+  border-bottom: none;
+}
+
+.chat-profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chat-details {
+  flex-grow: 1;
+}
+
+.chat-name {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.chat-message {
+  color: #555;
+}
+
+.unread-messages {
+  background-color: #ff3b30;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 12px;
+}
+.chat-item:hover {
+  background-color: #f0f0f0;
+  transition: background-color 0.3s ease;
+}
+.insta-post {
+  position: absolute;
+  height: 430px;
+  width: 55%;
+  top: 80px;
+  /* background-color: tomato; */
+  right: 13px;
+  border: 2px solid white;
+  box-shadow: 2px 2px 0 #000000, 4px 4px 0 #000;
+}
+.post {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin: 6px 0;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  max-height: 410px;
+  overflow-x: auto;
+}
+.post::-webkit-scrollbar {
+  display: none;
+}
+.post-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+}
+
+.post-profile-pic {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.post-header:hover {
+  cursor: pointer;
+}
+
+.post-user-details {
+  display: flex;
+  flex-direction: column;
+}
+.post-username {
+  font-weight: bold;
+}
+
+.post-location {
+  font-size: 0.9em;
+  color: #555;
+}
+
+.post-image {
+  width: 98%;
+  height: auto;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.post-action-icon {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+.share-ico {
+  transform: scale(1.5);
+}
+
+.post-likes {
+  padding: 0 10px;
+  font-weight: bold;
+}
+
+.post-caption {
+  padding: 0 10px;
+}
+
+.post-caption-username {
+  font-weight: bold;
+}
+
+.post-comments {
+  padding: 10px;
+}
+
+.comment {
+  margin-bottom: 5px;
+}
+
+.comment-username {
+  font-weight: bold;
+  margin-right: 5px;
+}
