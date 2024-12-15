@@ -5,7 +5,7 @@
 html,
 body {
   overflow: hidden;
-  cursor: url("./assets/icons/Embossed\ Gray\ Scale.cur"), auto;
+  cursor: url("./assets/icons/Embossed Gray Scale.cur"), auto;
 
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
@@ -22,7 +22,7 @@ body {
   display: none;
 }
 .background-image {
-  background-image: url("./assets/images/pngwing.com.png");
+  background-image: url("./assets/images/pngwing.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
