@@ -502,14 +502,28 @@
         </div>
       </div>
       <div class="taskbar-container">
-        <button class="start-btn">
+        <button class="start-btn" id="strt-btn">
           <div class="logo-start"></div>
           Start
+          <div class="start-window">
+            <div class="windows95"><p>Windows95</p></div>
+            <div class="task"><p class="Discription">Discription</p>
+            <p class="text-area">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, facere tempora vitae perspiciatis, delectus magni, eveniet error veritatis praesentium quod harum maiores rem quas vero! Asperiores recusandae fuga reiciendis ducimus. Molestias aspernatur, consequuntur illo odit nulla possimus explicabo cum. Obcaecati libero aspernatur non molestiae eligendi.</p></div>
+          </div>
         </button>
         <div id="time-display">Loading time...</div>
       </div>
     </div>
-
+    <script>
+      document.getElementById('strt-btn').addEventListener('click', function() {
+        const startWindow = document.querySelector('.start-window');
+        if (startWindow.style.visibility === 'visible') {
+          startWindow.style.visibility = 'hidden';
+        } else {
+          startWindow.style.visibility = 'visible';
+        }
+      });
+    </script>
     <script>
       function updateTime() {
         const now = new Date();
@@ -517,10 +531,10 @@
         document.getElementById("time-display").textContent = timeString;
       }
 
-      // Update the time every second
+
       setInterval(updateTime, 1000);
 
-      // Initial call to set the time immediately
+      
       updateTime();
     </script>
     <script>

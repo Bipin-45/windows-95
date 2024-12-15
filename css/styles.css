@@ -160,3 +160,47 @@ body {
 .content {
   position: relative;
 }
+
+.start-window{
+  height: 350px;
+    width: 260px;
+    position: absolute;
+    background-color: #c0c0c0;
+    border: 1px solid black;
+    bottom: 36px;
+    left: 28px;
+    display: flex;
+    flex-direction: column;
+    visibility: hidden;
+
+}
+.windows95{
+height: 100%;
+background-color: rgb(58, 57, 57);
+width: 20%;
+position: relative;
+}
+.windows95 p{
+  transform: rotate(-90deg);
+  position: absolute;
+  font-size: 32px;
+  bottom: 82px;
+  font-family: sans-serif;
+  left: -67px;
+  color: #c0c0c0;
+  font-weight: 900;
+  z-index: 9999;
+}
+.Discription{
+  position: absolute;
+  top: 5px;
+  right: 45px;
+}
+.text-area{
+  position: absolute;
+    top: 30px;
+    text-align: center;
+    width: 80%;
+    right: 0;
+}
+
