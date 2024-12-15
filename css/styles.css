@@ -72,22 +72,39 @@ body {
   align-items: center;
   gap: 5px;
   justify-content: center;
+  position: relative;
 }
 .icon:hover {
   transform: scale(1.1);
   transition: all 0.3s ease;
   cursor: pointer;
 }
+.dblclick {
+  font-size: 8px;
+  position: absolute;
+  top: 0;
+  border: 1px solid white;
+  border-radius: 50px;
+  padding: 12px;
+  width: 80%;
+  left: 126px;
+  color: white;
+  line-height: 15px;
+  visibility: hidden;
+}
+.icon:hover .dblclick {
+  visibility: visible;
+}
 .icon-container {
   position: absolute;
-  top: 20%;
+  top: 20px;
 
   width: 10%;
   height: 70%;
   display: flex;
   gap: 15px;
   align-content: flex-start;
-  flex-direction: column-reverse;
+  flex-direction: column;
   justify-content: flex-start;
 }
 .icon img {
