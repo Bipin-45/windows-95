@@ -22,7 +22,7 @@ body {
   display: none;
 }
 .background-image {
-  background-image: url("./assets/images/windowxp.png");
+  background-image: url("./assets/images/window-95.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -51,7 +51,7 @@ body {
   font-family: "Press Start 2P", system-ui;
 }
 .start-btn .logo-start {
-  background-image: url("./assets/images/windowxp.png");
+  background-image: url("./assets/images/window-95.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
