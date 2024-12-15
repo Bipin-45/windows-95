@@ -22,7 +22,7 @@ body {
   display: none;
 }
 .background-image {
-  background-image: url("./assets/images/pngwing.png");
+  background-image: url("/assets/images/pngwing.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
