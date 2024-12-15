@@ -33,7 +33,7 @@
 .youtube-main{
   display: flex;
   flex-direction: row;
-  height: 485px;
+  height: 535px;
 }
 .video {
   flex: 2;

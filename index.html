@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="./css/instagram.css" />
     <link rel="stylesheet" href="./css/facebook.css" />
     <link rel="stylesheet" href="./css/youtube.css" />
+    <link rel="stylesheet" href="./css/amazon.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -39,7 +41,11 @@
       <div class="background-image"></div>
       <div class="icon-container">
         <div class="icon" id="facebook ">
-          <img id="fb-logo" src="./assets/images/facebook-8bit-logo.png" alt="Facebook" />
+          <img
+            id="fb-logo"
+            src="./assets/images/facebook-8bit-logo.png"
+            alt="Facebook"
+          />
           <div class="icon-label">Facebook</div>
         </div>
         <div class="icon" id="instagram">
@@ -55,7 +61,6 @@
           <img src="./assets/images/amazon-logo.png" alt="Amazon" />
           <div class="icon-label">Amazon</div>
         </div>
-        
       </div>
       <!-- Amazon -->
       <div class="window" id="amazon-window">
@@ -68,374 +73,428 @@
           </div>
         </div>
         <div class="content">
-          
+          <div class="amazon-window">
+            <div class="amz-nav">
+              <div class="logo"><img src="/assets/images/amazon-logo-old.png" alt=""></div>
+              <p style="font-size: 50px;">Welcome to Amazon.com Books!</p>
             </div>
-        </div>
-      
-        <!-- Youtube -->
-        <div class="window" id="youtube-window">
-          <div class="title-bar">
-            <div class="title-bar-text">YouTube</div>
-            <div class="title-bar-controls">
-              <button aria-label="Minimize">_</button>
-              <button aria-label="Maximize">□</button>
-              <button id="close" aria-label="Close">×</button>
+            <div class="slogan">
+              <a href="#">One million titles,</a>
+              <a href="#">consistently low prices</a>
             </div>
-          </div>
-          <div class="content">
-            <div class="youtube-window">
-              <div class="youtube-nav">
-                <div class="youtube-title">Youtube</div>
-                <div class="youtube-tab">
-                  <a href="#" >Search</a>
-                  <a href="#" >Login</a>
-                  <a href="#" >Sign Up</a>
-                </div>
+            <p>(if you explore just one thing, make it our
+            <a href="#">personal notification service.</a>)</p>
+            <div class="main">
+              <div class="spotlight">
+                <h1><a href="#">Spotlight! -January 16TH</a></h1>
+                <p>
+                  These are books we love, offered at Amazon.com low prices. The
+                  Spotlight moves <b>EVERY</b> day so please come often
+                </p>
               </div>
-              <div class="youtube-main">
-                <div class="video">
-                  <h2>Mini Hackathon</h2>
-                  <div class="youtube-video">
-                    <iframe width="560" height="350" src="https://www.youtube.com/embed/RAJlXqhUVSM?si=oNxEZcMVb23IcMKG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                  </div>
-                  <div class="channel-details">
-  
-                    <div class="profile">
-                      <img src="./assets/images/channels4_profile.jpg" alt=""><h3>Codedex</h3></div>
-                    <p>Views : 785K</p>
-                    <p>Subscribers: 3M</p>
-                  </div>
-                </div>
-                <div class="sidebar">
-                  
-                  <div class="comments">
-                    <h3>Comments</h3>
-                    <p>Sonny: Great video!</p>
-                    <p>Eric: Love the retro style!</p>
-                  </div>
-                  <div class="ads">
-                    <h3>Ad</h3>
-                    <p>Join Codedex Now!</p>
-                    <div class="ads-banner">
-                      <img src="./assets/images/ads.png" alt="">
-                      <img src="./assets/images/ads2.png" alt="">
-                    </div>
-                  </div>
-                </div>
+              <div class="spotlight">
+                <h1><a href="#">One Million Titles</a></h1>
+                <p>
+                  Amazon.com Books is the world's largest online bookstore, offering
+                  over 2.5 million titles in a wide range of categories. We offer
+                  the best prices on new and used books, as well as the largest
+                  selection of out-of-print titles. We hope you enjoy the Amazon.com
+                  Books experience!
+                </p>
+              </div>
               
+              <div class="spotlight">
+                <img src="./assets/images/book.png" alt="" />
+                <h1><a href="#">Eyes and Editors, A PERSONAL NOTIFICATION SERVICE</a></h1>
+                <p>Like to know when that book you want comes out in paperback or when your favorite author releases a new title? Eyes, our tireless, automated search agent, will send you mail. Meanwhile, our human editors are busy previewing galleys and reading advance reviews. They can let you know when especially wonderful works are published in particular genres or subject areas. Come in, meet Eyes, and have it all explained.</p>
+                
               </div>
+              <div class="spotlight">
+                
+                <h1><a href="#">About Amazon.com</a></h1>
+
+                <p>Here you can find such information as our everyday discounts (even paperbacks are usually 10% off), our returns policy, and the various ways to reach us, including our toll-free 800 number. If you're curious, you can also find out why we're named Amazon.com...</p>
+                
               </div>
-              </div>
+              
+            </div>
+           
           </div>
-          <!-- Insta -->
-          <div class="window" id="instagram-window">
-            <div class="title-bar">
-              <div class="title-bar-text">Instagram</div>
-              <div class="title-bar-controls">
-                <button aria-label="Minimize">_</button>
-                <button  aria-label="Maximize">□</button>
-                <button id="close" aria-label="Close">×</button>
+        </div>
+      </div>
+
+      <!-- Youtube -->
+      <div class="window" id="youtube-window">
+        <div class="title-bar">
+          <div class="title-bar-text">YouTube</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize">_</button>
+            <button aria-label="Maximize">□</button>
+            <button id="close" aria-label="Close">×</button>
+          </div>
+        </div>
+        <div class="content">
+          <div class="youtube-window">
+            <div class="youtube-nav">
+              <div class="youtube-title">Youtube</div>
+              <div class="youtube-tab">
+                <a href="#">Search</a>
+                <a href="#">Login</a>
+                <a href="#">Sign Up</a>
               </div>
             </div>
-            <div class="content">
-              <div class="instagram-window">
-                <div class="insta-navbar">
-                  <div class="insta-logo">Instagram</div>
-                  <div class="insta-search">
-                    <input type="text" placeholder="Search" /><img
-                      class="search-insta-ico"
-                      src="./assets/images/magnify glass.png"
-                      alt=""
-                    />
-                  </div>
-                  <!-- <img class="icons-insta bell" src="/assets/images/bell.png" alt=""> -->
-                  <img
-                    class="icons-insta"
-                    src="./assets/images/user-icon.png"
-                    alt=""
-                  />
-                  <img
-                    class="icons-insta"
-                    src="./assets/images/setting-icons.png"
-                    alt=""
-                  />
+            <div class="youtube-main">
+              <div class="video">
+                <h2>Mini Hackathon</h2>
+                <div class="youtube-video">
+                  <!-- <iframe
+                    width="560"
+                    height="350"
+                    src="https://www.youtube.com/embed/RAJlXqhUVSM?si=oNxEZcMVb23IcMKG"
+                    title="YouTube video player"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen
+                  ></iframe> -->
                 </div>
-                <div class="insta-chat">
-                  <div class="insta-chat-header">Messages</div>
-                  <div class="insta-chat-list">
-                    <div class="chat-item">
-                      <img
-                        class="chat-profile-pic"
-                        src="./assets/images/dp1.png"
-                        alt="Profile 1"
-                      />
-                      <div class="chat-details">
-                        <div class="chat-name">Akshat</div>
-                        <div class="chat-message">Hey, how are you?</div>
-                      </div>
-                      <div class="unread-messages">3</div>
-                    </div>
-                    <div class="chat-item">
-                      <img
-                        class="chat-profile-pic"
-                        src="./assets/images/dp2.png"
-                        alt="Profile 2"
-                      />
-                      <div class="chat-details">
-                        <div class="chat-name">Amrit</div>
-                        <div class="chat-message">Check this out!</div>
-                      </div>
-                      <div class="unread-messages">1</div>
-                    </div>
-                    <div class="chat-item">
-                      <img
-                        class="chat-profile-pic"
-                        src="./assets/images/dp3.png"
-                        alt="Profile 3"
-                      />
-                      <div class="chat-details">
-                        <div class="chat-name">Panda</div>
-                        <div class="chat-message">Are you coming?</div>
-                      </div>
-                      <div class="unread-messages">2</div>
-                    </div>
-                    <div class="chat-item">
-                      <img
-                        class="chat-profile-pic"
-                        src="./assets/images/dp4.png"
-                        alt="Profile 4"
-                      />
-                      <div class="chat-details">
-                        <div class="chat-name">Ramu</div>
-                        <div class="chat-message">Let's catch up!</div>
-                      </div>
-                      <div class="unread-messages">5</div>
-                    </div>
-                    <div class="chat-item">
-                      <img
-                        class="chat-profile-pic"
-                        src="./assets/images/dp5.png"
-                        alt="Profile 5"
-                      />
-                      <div class="chat-details">
-                        <div class="chat-name">Messi</div>
-                        <div class="chat-message">Good morning!</div>
-                      </div>
-                      <div class="unread-messages">4</div>
-                    </div>
+                <div class="channel-details">
+                  <div class="profile">
+                    <img src="./assets/images/channels4_profile.jpg" alt="" />
+                    <h3>Codedex</h3>
                   </div>
+                  <p>Views : 785K</p>
+                  <p>Subscribers: 3M</p>
                 </div>
-                <div class="insta-post">
-                  <div class="post">
-                    <div class="post-header">
-                      <img
-                        class="post-profile-pic"
-                        src="./assets/images/dp1.png"
-                        alt="Profile 1"
-                      />
-                      <div class="post-user-details">
-                        <div class="post-username">Akshat</div>
-                        <div class="post-location">Mexico
-                        </div>
-                      </div>
-                    </div>
-                    <img
-                      class="post-image"
-                      src="./assets/images/nature-sun.png"
-                      alt="Post Image"
-                    />
-                    <div class="post-actions">
-                      <img
-                        class="post-action-icon"
-                        src="./assets/images/love.png"
-                        alt="Like"
-                      />
-                      <img
-                        class="post-action-icon"
-                        src="./assets/images/comment-insta.webp"
-                        alt="Comment"
-                      />
-                      <img
-                        class="post-action-icon share-ico"
-                        src="./assets/images/share.png"
-                        alt="Share"
-                      />
-                    </div>
-                    <div class="post-likes">Liked by Amrit and 99 others</div>
-                    <div class="post-caption">
-                      <span class="post-caption-username">Akshat</span> Don't Panic and Carry a Towel
-                    </div>
-                    <div class="post-comments">
-                      <div class="comment">
-                        <span class="comment-username">Amrit</span> Nice post!
-                      </div>
-                      <div class="comment">
-                        <span class="comment-username">Ramu</span> Ohh Yeah! Coming
-                      </div>
-                    </div>
+              </div>
+              <div class="sidebar">
+                <div class="comments">
+                  <h3>Comments</h3>
+                  <p>Sonny: Great video!</p>
+                  <p>Eric: Love the retro style!</p>
+                </div>
+                <div class="ads">
+                  <h3>Ad</h3>
+                  <p>Join Codedex Now!</p>
+                  <div class="ads-banner">
+                    <img src="./assets/images/ads.png" alt="" />
+                    <img src="./assets/images/ads2.png" alt="" />
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <!-- Facebook -->
-          <div class="window" id="facebook-window">
-            <div class="title-bar">
-              <div class="title-bar-text">facebook</div>
-              <div class="title-bar-controls">
-                <button aria-label="Minimize">_</button>
-                <button aria-label="Maximize">□</button>
-                <button id="close" aria-label="Close">×</button>
+        </div>
+      </div>
+      <!-- Insta -->
+      <div class="window" id="instagram-window">
+        <div class="title-bar">
+          <div class="title-bar-text">Instagram</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize">_</button>
+            <button aria-label="Maximize">□</button>
+            <button id="close" aria-label="Close">×</button>
+          </div>
+        </div>
+        <div class="content">
+          <div class="instagram-window">
+            <div class="insta-navbar">
+              <div class="insta-logo">Instagram</div>
+              <div class="insta-search">
+                <input type="text" placeholder="Search" /><img
+                  class="search-insta-ico"
+                  src="./assets/images/magnify glass.png"
+                  alt=""
+                />
+              </div>
+              <!-- <img class="icons-insta bell" src="/assets/images/bell.png" alt=""> -->
+              <img
+                class="icons-insta"
+                src="./assets/images/user-icon.png"
+                alt=""
+              />
+              <img
+                class="icons-insta"
+                src="./assets/images/setting-icons.png"
+                alt=""
+              />
+            </div>
+            <div class="insta-chat">
+              <div class="insta-chat-header">Messages</div>
+              <div class="insta-chat-list">
+                <div class="chat-item">
+                  <img
+                    class="chat-profile-pic"
+                    src="./assets/images/dp1.png"
+                    alt="Profile 1"
+                  />
+                  <div class="chat-details">
+                    <div class="chat-name">Akshat</div>
+                    <div class="chat-message">Hey, how are you?</div>
+                  </div>
+                  <div class="unread-messages">3</div>
+                </div>
+                <div class="chat-item">
+                  <img
+                    class="chat-profile-pic"
+                    src="./assets/images/dp2.png"
+                    alt="Profile 2"
+                  />
+                  <div class="chat-details">
+                    <div class="chat-name">Amrit</div>
+                    <div class="chat-message">Check this out!</div>
+                  </div>
+                  <div class="unread-messages">1</div>
+                </div>
+                <div class="chat-item">
+                  <img
+                    class="chat-profile-pic"
+                    src="./assets/images/dp3.png"
+                    alt="Profile 3"
+                  />
+                  <div class="chat-details">
+                    <div class="chat-name">Panda</div>
+                    <div class="chat-message">Are you coming?</div>
+                  </div>
+                  <div class="unread-messages">2</div>
+                </div>
+                <div class="chat-item">
+                  <img
+                    class="chat-profile-pic"
+                    src="./assets/images/dp4.png"
+                    alt="Profile 4"
+                  />
+                  <div class="chat-details">
+                    <div class="chat-name">Ramu</div>
+                    <div class="chat-message">Let's catch up!</div>
+                  </div>
+                  <div class="unread-messages">5</div>
+                </div>
+                <div class="chat-item">
+                  <img
+                    class="chat-profile-pic"
+                    src="./assets/images/dp5.png"
+                    alt="Profile 5"
+                  />
+                  <div class="chat-details">
+                    <div class="chat-name">Messi</div>
+                    <div class="chat-message">Good morning!</div>
+                  </div>
+                  <div class="unread-messages">4</div>
+                </div>
               </div>
             </div>
-            <div class="content">
-              <div class="facebook-window">
-                <div class="facebook-navbar">
-                  <div class="facebook-logo">facebook</div>
-    
-                  <!-- <img class="icons-facebook bell" src="/assets/images/bell.png" alt=""> -->
+            <div class="insta-post">
+              <div class="post">
+                <div class="post-header">
                   <img
-                    class="icons-facebook invert"
-                    src="./assets/images/user-icon.png"
-                    alt=""
+                    class="post-profile-pic"
+                    src="./assets/images/dp1.png"
+                    alt="Profile 1"
                   />
-                  <img
-                    class="icons-facebook invert"
-                    src="./assets/images/setting-icons.png"
-                    alt=""
-                  />
-                  <img
-                    class="icons-facebook"
-                    src="./assets/images/facebook-mess.png"
-                    alt=""
-                  />
-                  <div class="facebook-search">
-                    <input type="text" placeholder="Search" /><img
-                      class="search-facebook-ico invert"
-                      src="./assets/images/magnify glass.png"
-                      alt=""
-                    />
+                  <div class="post-user-details">
+                    <div class="post-username">Akshat</div>
+                    <div class="post-location">Mexico</div>
                   </div>
                 </div>
-                <div class="facebook-chat">
-                  <div class="facebook-chat-header">Messages</div>
-                  <div class="facebook-chat-list">
-                    <div class="chat-item">
-                      <img
-                        class="chat-profile-pic"
-                        src="./assets/images/dp1.png"
-                        alt="Profile 1"
-                      />
-                      <div class="chat-details">
-                        <div class="chat-name">Akshat</div>
-                        <div class="chat-message">Hey, how are you?</div>
-                      </div>
-                      <div class="unread-messages">3</div>
-                    </div>
-                    <div class="chat-item">
-                      <img
-                        class="chat-profile-pic"
-                        src="./assets/images/dp2.png"
-                        alt="Profile 2"
-                      />
-                      <div class="chat-details">
-                        <div class="chat-name">Amrit</div>
-                        <div class="chat-message">Check this out!</div>
-                      </div>
-                      <div class="unread-messages">1</div>
-                    </div>
-                    <div class="chat-item">
-                      <img
-                        class="chat-profile-pic"
-                        src="./assets/images/dp3.png"
-                        alt="Profile 3"
-                      />
-                      <div class="chat-details">
-                        <div class="chat-name">Panda</div>
-                        <div class="chat-message">Are you coming?</div>
-                      </div>
-                      <div class="unread-messages">2</div>
-                    </div>
-                    <div class="chat-item">
-                      <img
-                        class="chat-profile-pic"
-                        src="./assets/images/dp4.png"
-                        alt="Profile 4"
-                      />
-                      <div class="chat-details">
-                        <div class="chat-name">Ramu</div>
-                        <div class="chat-message">Let's catch up!</div>
-                      </div>
-                      <div class="unread-messages">5</div>
-                    </div>
-                    <div class="chat-item">
-                      <img
-                        class="chat-profile-pic"
-                        src="./assets/images/dp5.png"
-                        alt="Profile 5"
-                      />
-                      <div class="chat-details">
-                        <div class="chat-name">Messi</div>
-                        <div class="chat-message">Good morning!</div>
-                      </div>
-                      <div class="unread-messages">4</div>
-                    </div>
-                  </div>
+                <img
+                  class="post-image"
+                  src="./assets/images/nature-sun.png"
+                  alt="Post Image"
+                />
+                <div class="post-actions">
+                  <img
+                    class="post-action-icon"
+                    src="./assets/images/love.png"
+                    alt="Like"
+                  />
+                  <img
+                    class="post-action-icon"
+                    src="./assets/images/comment-insta.webp"
+                    alt="Comment"
+                  />
+                  <img
+                    class="post-action-icon share-ico"
+                    src="./assets/images/share.png"
+                    alt="Share"
+                  />
                 </div>
-                <div class="facebook-post">
-                  <div class="post">
-                    <div class="post-header">
-                      <img
-                        class="post-profile-pic"
-                        src="./assets/images/dp1.png"
-                        alt="Profile 1"
-                      />
-                      <div class="post-user-details">
-                        <div class="post-username">Akshat</div>
-                        <div class="post-location">Mexico</div>
-                      </div>
-                    </div>
-                    <div class="post-caption">
-                      <span class="post-caption-username">Akshat</span> Don't Panic
-                      and Carry a Towel
-                    </div>
-                    <img
-                      class="post-image"
-                      src="./assets/images/facebook-taj.png"
-                      alt="Post Image"
-                    />
-                    <div class="post-likes">Liked by Amrit and 99 others</div>
-                    <div class="post-actions">
-                      <img
-                        class="post-action-icon"
-                        src="./assets/images/like.png"
-                        alt="Like"
-                      />
-                      <img
-                        class="post-action-icon"
-                        src="./assets/images/comment-insta.webp"
-                        alt="Comment"
-                      />
-                      <img
-                        class="post-action-icon share-ico"
-                        src="./assets/images/share.png"
-                        alt="Share"
-                      />
-                    </div>
-    
-                    <div class="post-comments">
-                      <div class="comment">
-                        <span class="comment-username">Amrit</span> Nice post!
-                      </div>
-                      <div class="comment">
-                        <span class="comment-username">Ramu</span> Ohh Yeah! Coming
-                      </div>
-                    </div>
+                <div class="post-likes">Liked by Amrit and 99 others</div>
+                <div class="post-caption">
+                  <span class="post-caption-username">Akshat</span> Don't Panic
+                  and Carry a Towel
+                </div>
+                <div class="post-comments">
+                  <div class="comment">
+                    <span class="comment-username">Amrit</span> Nice post!
+                  </div>
+                  <div class="comment">
+                    <span class="comment-username">Ramu</span> Ohh Yeah! Coming
                   </div>
                 </div>
               </div>
             </div>
           </div>
+        </div>
+      </div>
+      <!-- Facebook -->
+      <div class="window" id="facebook-window">
+        <div class="title-bar">
+          <div class="title-bar-text">facebook</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize">_</button>
+            <button aria-label="Maximize">□</button>
+            <button id="close" aria-label="Close">×</button>
+          </div>
+        </div>
+        <div class="content">
+          <div class="facebook-window">
+            <div class="facebook-navbar">
+              <div class="facebook-logo">facebook</div>
+
+              <!-- <img class="icons-facebook bell" src="/assets/images/bell.png" alt=""> -->
+              <img
+                class="icons-facebook invert"
+                src="./assets/images/user-icon.png"
+                alt=""
+              />
+              <img
+                class="icons-facebook invert"
+                src="./assets/images/setting-icons.png"
+                alt=""
+              />
+              <img
+                class="icons-facebook"
+                src="./assets/images/facebook-mess.png"
+                alt=""
+              />
+              <div class="facebook-search">
+                <input type="text" placeholder="Search" /><img
+                  class="search-facebook-ico invert"
+                  src="./assets/images/magnify glass.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="facebook-chat">
+              <div class="facebook-chat-header">Messages</div>
+              <div class="facebook-chat-list">
+                <div class="chat-item">
+                  <img
+                    class="chat-profile-pic"
+                    src="./assets/images/dp1.png"
+                    alt="Profile 1"
+                  />
+                  <div class="chat-details">
+                    <div class="chat-name">Akshat</div>
+                    <div class="chat-message">Hey, how are you?</div>
+                  </div>
+                  <div class="unread-messages">3</div>
+                </div>
+                <div class="chat-item">
+                  <img
+                    class="chat-profile-pic"
+                    src="./assets/images/dp2.png"
+                    alt="Profile 2"
+                  />
+                  <div class="chat-details">
+                    <div class="chat-name">Amrit</div>
+                    <div class="chat-message">Check this out!</div>
+                  </div>
+                  <div class="unread-messages">1</div>
+                </div>
+                <div class="chat-item">
+                  <img
+                    class="chat-profile-pic"
+                    src="./assets/images/dp3.png"
+                    alt="Profile 3"
+                  />
+                  <div class="chat-details">
+                    <div class="chat-name">Panda</div>
+                    <div class="chat-message">Are you coming?</div>
+                  </div>
+                  <div class="unread-messages">2</div>
+                </div>
+                <div class="chat-item">
+                  <img
+                    class="chat-profile-pic"
+                    src="./assets/images/dp4.png"
+                    alt="Profile 4"
+                  />
+                  <div class="chat-details">
+                    <div class="chat-name">Ramu</div>
+                    <div class="chat-message">Let's catch up!</div>
+                  </div>
+                  <div class="unread-messages">5</div>
+                </div>
+                <div class="chat-item">
+                  <img
+                    class="chat-profile-pic"
+                    src="./assets/images/dp5.png"
+                    alt="Profile 5"
+                  />
+                  <div class="chat-details">
+                    <div class="chat-name">Messi</div>
+                    <div class="chat-message">Good morning!</div>
+                  </div>
+                  <div class="unread-messages">4</div>
+                </div>
+              </div>
+            </div>
+            <div class="facebook-post">
+              <div class="post">
+                <div class="post-header">
+                  <img
+                    class="post-profile-pic"
+                    src="./assets/images/dp1.png"
+                    alt="Profile 1"
+                  />
+                  <div class="post-user-details">
+                    <div class="post-username">Akshat</div>
+                    <div class="post-location">Mexico</div>
+                  </div>
+                </div>
+                <div class="post-caption">
+                  <span class="post-caption-username">Akshat</span> Don't Panic
+                  and Carry a Towel
+                </div>
+                <img
+                  class="post-image"
+                  src="./assets/images/facebook-taj.png"
+                  alt="Post Image"
+                />
+                <div class="post-likes">Liked by Amrit and 99 others</div>
+                <div class="post-actions">
+                  <img
+                    class="post-action-icon"
+                    src="./assets/images/like.png"
+                    alt="Like"
+                  />
+                  <img
+                    class="post-action-icon"
+                    src="./assets/images/comment-insta.webp"
+                    alt="Comment"
+                  />
+                  <img
+                    class="post-action-icon share-ico"
+                    src="./assets/images/share.png"
+                    alt="Share"
+                  />
+                </div>
+
+                <div class="post-comments">
+                  <div class="comment">
+                    <span class="comment-username">Amrit</span> Nice post!
+                  </div>
+                  <div class="comment">
+                    <span class="comment-username">Ramu</span> Ohh Yeah! Coming
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
       <div class="taskbar-container">
         <button class="start-btn">
           <div class="logo-start"></div>
@@ -459,11 +518,11 @@
       updateTime();
     </script>
     <script>
-      // 
+      //
 
       document.addEventListener("DOMContentLoaded", function () {
         const icons = document.querySelectorAll(".icon");
-        icons.forEach(icon => {
+        icons.forEach((icon) => {
           icon.addEventListener("dblclick", function () {
             const id = this.id.trim();
             const windowId = `${id}-window`;
@@ -476,18 +535,17 @@
         });
 
         const windows = document.querySelectorAll(".window");
-        windows.forEach(window => {
+        windows.forEach((window) => {
           window.addEventListener("click", function () {
             bringToFront(this);
           });
         });
 
         function bringToFront(element) {
-          windows.forEach(win => win.style.zIndex = "0"); // Reset zIndex for all windows
+          windows.forEach((win) => (win.style.zIndex = "0")); // Reset zIndex for all windows
           element.style.zIndex = "1000"; // Bring the specified window to the top
         }
       });
-
     </script>
     <script src="./javascript/loading.js"></script>
     <script src="./javascript/script.js"></script>

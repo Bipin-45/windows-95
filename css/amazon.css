@@ -1,3 +1,26 @@
-#amazon-window{
+#amazon-window {
   display: none;
+}
+.amazon-window {
+  max-height: 575px;
+  /* display: none; */
+  z-index: 9999;
+  overflow-x: auto;
+}
+.amazon-window * {
+  font-family: "Times New Roman", Times, serif;
+}
+.amz-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.spotlight {
+  margin-bottom: 10px;
+}
+.spotlight,
+img,
+p,
+h1 {
+  margin-bottom: 5px;
 }

@@ -57,7 +57,7 @@
 }
 .facebook-chat {
   position: absolute;
-  height: 430px;
+  height: 475px;
   width: 37%;
   top: 80px;
   right: 13px;
@@ -132,7 +132,7 @@
 }
 .facebook-post {
   position: absolute;
-  height: 430px;
+  height: 475px;
   width: 59%;
   top: 80px;
   left: 13px;
@@ -145,7 +145,7 @@
   margin: 6px 0;
   background-color: #fff;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  max-height: 410px;
+  max-height: 465px;
   overflow-x: auto;
 }
 .post::-webkit-scrollbar {
