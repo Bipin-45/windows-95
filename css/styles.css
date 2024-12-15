@@ -5,7 +5,7 @@
 html,
 body {
   overflow: hidden;
-  cursor: url("/assets/icons/Embossed\ Gray\ Scale.cur"), auto;
+  cursor: url("./assets/icons/Embossed\ Gray\ Scale.cur"), auto;
 
   font-family: "Press Start 2P", system-ui;
   font-weight: 400;
@@ -22,7 +22,7 @@ body {
   display: none;
 }
 .background-image {
-  background-image: url("/assets/images/pngwing.com.png");
+  background-image: url("./assets/images/pngwing.com.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -51,7 +51,7 @@ body {
   font-family: "Press Start 2P", system-ui;
 }
 .start-btn .logo-start {
-  background-image: url("/assets/images/pngwing.com.png");
+  background-image: url("./assets/images/pngwing.com.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -61,6 +61,7 @@ body {
 #time-display {
   margin-right: 5px;
   height: 35px;
+  font-size: 11px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -93,7 +94,7 @@ body {
   width: 80px;
   height: 80px;
 }
-#fb-logo{
+#fb-logo {
   width: 45px;
   height: 35px;
 }
